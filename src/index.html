@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie - Online Food Ordering</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🍔 Foodie Restaurant</h1>
+    <p>Delicious Food, Delivered Fresh!</p>
+    <div class="cart">🛒 Cart: <span id="cart-count">0</span></div>
+</header>
+
+<nav>
+    <button class="category-btn active" data-category="All">All</button>
+    <button class="category-btn" data-category="Pizza">Pizza</button>
+    <button class="category-btn" data-category="Burger">Burger</button>
+    <button class="category-btn" data-category="Drinks">Drinks</button>
+</nav>
+
+<main>
+    <h2>Our Food Menu</h2>
+
+    <div class="food-container">
+
+        <div class="food-card" data-category="Pizza">
+            <h3>Margherita Pizza</h3>
+            <p>Cheese, tomato and fresh basil</p>
+            <h4>₹199</h4>
+            <button class="add-btn">Add to Cart</button>
+        </div>
+
+        <div class="food-card" data-category="Pizza">
+            <h3>Farmhouse Pizza</h3>
+            <p>Onion, capsicum and mushrooms</p>
+            <h4>₹249</h4>
+            <button class="add-btn">Add to Cart</button>
+        </div>
+
+        <div class="food-card" data-category="Burger">
+            <h3>Veg Burger</h3>
+            <p>Vegetable patty with fresh lettuce</p>
+            <h4>₹99</h4>
+            <button class="add-btn">Add to Cart</button>
+        </div>
+
+        <div class="food-card" data-category="Burger">
+            <h3>Cheese Burger</h3>
+            <p>Cheese, vegetables and special sauce</p>
+            <h4>₹149</h4>
+            <button class="add-btn">Add to Cart</button>
+        </div>
+
+        <div class="food-card" data-category="Drinks">
+            <h3>Cold Coffee</h3>
+            <p>Chilled creamy coffee</p>
+            <h4>₹79</h4>
+            <button class="add-btn">Add to Cart</button>
+        </div>
+
+        <div class="food-card" data-category="Drinks">
+            <h3>Fresh Lime Juice</h3>
+            <p>Fresh and refreshing lime juice</p>
+            <h4>₹49</h4>
+            <button class="add-btn">Add to Cart</button>
+        </div>
+
+    </div>
+    <p id="message"></p>
+</main>
+
+<footer>
+    <p>© 2026 Foodie Restaurant | Online Food Ordering Website</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

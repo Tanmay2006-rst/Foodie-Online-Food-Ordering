@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #e65100;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+.cart {
+    margin-top: 12px;
+    font-size: 18px;
+}
+
+nav {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 18px;
+    margin: 5px;
+    background-color: #e65100;
+    color: white;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #bf360c;
+}
+
+.category-btn.active {
+    background-color: #333;
+}
+
+main {
+    padding: 30px;
+    text-align: center;
+}
+
+main h2 {
+    margin-bottom: 25px;
+}
+
+.food-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.food-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+.food-card h3 {
+    color: #e65100;
+    margin-bottom: 12px;
+}
+
+.food-card p {
+    margin-bottom: 12px;
+}
+
+.food-card h4 {
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+#message {
+    margin-top: 20px;
+    color: green;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 30px;
+}
